@@ -15,12 +15,14 @@
 //#include <conio.h> // BIBLIOTECA PARA USAR GETCHAR EM WINDOWS
 //#include <curses.h> // BIBLIOTECA PARA LINUX OU OSX
 
-int main(int argc, const char * argv[]) {
-    
-    //VARIAVEIS
-    float apol1,apol2,apol3,apol4,apol5,ativ_prat,prov_obj, prov_disc;
-    float peso_apols, peso_prov_obj,peso_prov_disc,media;
-    
+//VARIAVEIS
+float apol1,apol2,apol3,apol4,apol5,ativ_prat,prov_obj, prov_disc;
+float peso_apols, peso_prov_obj,peso_prov_disc,media;
+
+// ----------------------------------------------------------------------------
+//    FUNÇAO CABEÇALHO
+// ----------------------------------------------------------------------------
+void cabecalho(){
     //LIMPAR TELA
     system("clear");
     
@@ -28,10 +30,17 @@ int main(int argc, const char * argv[]) {
     printf("\n************************************");
     printf("\nCALCULADORA DE MEDIA - UNINTER");
     printf("\nProgramador: Rafael Rodrigo Silveira");
-    printf("\nVersão: 1.0 - 05/06/2017");
+    printf("\nVersão: 1.1 - 14/06/2017");
+    printf("\nrafaelrodrigosilveira@gmail.com");
     printf("\n************************************");
     printf("");
     printf("");
+}
+
+// ----------------------------------------------------------------------------
+//    FUNÇAO CADASTRAR
+// ----------------------------------------------------------------------------
+void cadastrar(){
     
     
     //LER APOLS
@@ -57,17 +66,26 @@ int main(int argc, const char * argv[]) {
     //LER PROVA OBJETIVA
     printf("Informe a nota da PROVA DISCURSIVA: ");
     scanf("%f", &prov_disc);
-    
+}
+
+// ----------------------------------------------------------------------------
+//    FUNÇAO CALCULA MEDIA
+// ----------------------------------------------------------------------------
+
+void calc_media(){
     // PROCESSAR MEDIA
     peso_apols = (apol1*30+apol2*30+apol3*30+apol4*30+apol5*30)/5;
     peso_prov_obj = (prov_obj*20);
     peso_prov_disc = (prov_disc*50);
     media = (peso_apols+peso_prov_obj+peso_prov_disc)/100;
-    
-    // APRESENTAR MEDIA
-    printf(" ");
-    printf("\nA sua média é: %f", media);
-    
+}
+
+
+// ----------------------------------------------------------------------------
+//    FUNÇAO VERIFICA SE APROVADO/REPROVADO
+// ----------------------------------------------------------------------------
+
+void verifica_passou(){
     //VERIFICA SE PASSOU OU REPROVOU
     if(media>=70.000000){
         printf("");
@@ -83,10 +101,32 @@ int main(int argc, const char * argv[]) {
         printf("\n***********************************************");
         printf("");
     }
+}
+
+
+
+// ----------------------------------------------------------------------------
+//    FUNÇAO PRINCIPAL
+// ----------------------------------------------------------------------------
+int main(int argc, const char * argv[]) {
+    
+    
+    cabecalho();
+    
+    cadastrar();
+    
+    calc_media();
+
+    
+    // APRESENTAR MEDIA
+    printf(" ");
+    printf("\nA sua média é: %f", media);
+    
+    verifica_passou();
     
     // PAUSA O PROGRAMA
-    printf("");
-    printf("");
+    printf("\n");
+    printf("\n");
     //system("pause"); // pausa programa em windows
     system( "read -n 1 -s -p \"\nAperte uma tecla para fechar o programa...\"" );// Pausa programa em OSX
     
