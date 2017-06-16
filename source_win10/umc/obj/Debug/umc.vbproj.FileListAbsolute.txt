@@ -1,0 +1,12 @@
+c:\users\rafae\documents\visual studio 2017\Projects\umc\umc\bin\Debug\umc.exe.config
+c:\users\rafae\documents\visual studio 2017\Projects\umc\umc\bin\Debug\umc.exe
+c:\users\rafae\documents\visual studio 2017\Projects\umc\umc\bin\Debug\umc.pdb
+c:\users\rafae\documents\visual studio 2017\Projects\umc\umc\bin\Debug\umc.xml
+c:\users\rafae\documents\visual studio 2017\Projects\umc\umc\obj\Debug\umc.vbprojResolveAssemblyReference.cache
+c:\users\rafae\documents\visual studio 2017\Projects\umc\umc\obj\Debug\umc.frmPrincipal.resources
+c:\users\rafae\documents\visual studio 2017\Projects\umc\umc\obj\Debug\umc.Resources.resources
+c:\users\rafae\documents\visual studio 2017\Projects\umc\umc\obj\Debug\umc.vbproj.GenerateResource.Cache
+c:\users\rafae\documents\visual studio 2017\Projects\umc\umc\obj\Debug\umc.exe
+c:\users\rafae\documents\visual studio 2017\Projects\umc\umc\obj\Debug\umc.xml
+c:\users\rafae\documents\visual studio 2017\Projects\umc\umc\obj\Debug\umc.pdb
+c:\users\rafae\documents\visual studio 2017\Projects\umc\umc\obj\Debug\umc.frmSobre.resources

@@ -1,0 +1,16 @@
+c:\users\rafae\documents\visual studio 2017\Projects\umc\umc\bin\Release\umc.exe.config
+c:\users\rafae\documents\visual studio 2017\Projects\umc\umc\bin\Release\umc.exe
+c:\users\rafae\documents\visual studio 2017\Projects\umc\umc\bin\Release\umc.pdb
+c:\users\rafae\documents\visual studio 2017\Projects\umc\umc\bin\Release\umc.xml
+c:\users\rafae\documents\visual studio 2017\Projects\umc\umc\obj\Release\umc.frmPrincipal.resources
+c:\users\rafae\documents\visual studio 2017\Projects\umc\umc\obj\Release\umc.frmSobre.resources
+c:\users\rafae\documents\visual studio 2017\Projects\umc\umc\obj\Release\umc.Resources.resources
+c:\users\rafae\documents\visual studio 2017\Projects\umc\umc\obj\Release\umc.vbproj.GenerateResource.Cache
+c:\users\rafae\documents\visual studio 2017\Projects\umc\umc\obj\Release\umc.exe
+c:\users\rafae\documents\visual studio 2017\Projects\umc\umc\obj\Release\umc.xml
+c:\users\rafae\documents\visual studio 2017\Projects\umc\umc\obj\Release\umc.pdb
+c:\users\rafae\documents\visual studio 2017\Projects\umc\umc\bin\Release\umc.exe.manifest
+c:\users\rafae\documents\visual studio 2017\Projects\umc\umc\bin\Release\umc.application
+c:\users\rafae\documents\visual studio 2017\Projects\umc\umc\obj\Release\umc.vbprojResolveAssemblyReference.cache
+c:\users\rafae\documents\visual studio 2017\Projects\umc\umc\obj\Release\umc.exe.manifest
+c:\users\rafae\documents\visual studio 2017\Projects\umc\umc\obj\Release\umc.application
