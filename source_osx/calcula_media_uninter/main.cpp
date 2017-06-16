@@ -16,8 +16,7 @@
 //#include <curses.h> // BIBLIOTECA PARA LINUX OU OSX
 
 //VARIAVEIS
-float apol1,apol2,apol3,apol4,apol5,ativ_prat,prov_obj, prov_disc;
-float peso_apols, peso_prov_obj,peso_prov_disc,media;
+int apol1, apol2, apol3, apol4, apol5, N1, N3, N4, PO, AP, PD, media;
 
 // ----------------------------------------------------------------------------
 //    FUNÇAO CABEÇALHO
@@ -30,7 +29,7 @@ void cabecalho(){
     printf("\n************************************");
     printf("\nCALCULADORA DE MEDIA - UNINTER");
     printf("\nProgramador: Rafael Rodrigo Silveira");
-    printf("\nVersão: 1.1 - 14/06/2017");
+    printf("\nVersão: 1.2 - 16/06/2017");
     printf("\nrafaelrodrigosilveira@gmail.com");
     printf("\n************************************");
     printf("");
@@ -45,27 +44,27 @@ void cadastrar(){
     
     //LER APOLS
     printf("\nInforme a nota da apol 1: ");
-    scanf("%f", &apol1);
+    scanf("%d", &apol1);
     printf("Informe a nota da apol 2: ");
-    scanf("%f", &apol2);
+    scanf("%d", &apol2);
     printf("Informe a nota da apol 3: ");
-    scanf("%f", &apol3);
+    scanf("%d", &apol3);
     printf("Informe a nota da apol 4: ");
-    scanf("%f", &apol4);
+    scanf("%d", &apol4);
     printf("Informe a nota da apol 5: ");
-    scanf("%f", &apol5);
+    scanf("%d", &apol5);
     
     //LER ATIVIDADES PRATICAS
     printf("Informe a nota da ATIVIDADE PRATICA: ");
-    scanf("%f", &ativ_prat);
+    scanf("%d", &AP);
     
     //LER PROVA OBJETIVA
     printf("Informe a nota da PROVA OBJETIVA: ");
-    scanf("%f", &prov_obj);
+    scanf("%d", &PO);
     
     //LER PROVA OBJETIVA
     printf("Informe a nota da PROVA DISCURSIVA: ");
-    scanf("%f", &prov_disc);
+    scanf("%d", &PD);
 }
 
 // ----------------------------------------------------------------------------
@@ -74,10 +73,10 @@ void cadastrar(){
 
 void calc_media(){
     // PROCESSAR MEDIA
-    peso_apols = (apol1*30+apol2*30+apol3*30+apol4*30+apol5*30)/5;
-    peso_prov_obj = (prov_obj*20);
-    peso_prov_disc = (prov_disc*50);
-    media = (peso_apols+peso_prov_obj+peso_prov_disc)/100;
+    N1=PO;
+    N3 = (apol1 + apol2 + apol3 + apol4 + apol5) / 5;
+    N4 = (AP * 0.4 + PD * 0.6);
+    media = (N1 * 30 + N3 * 20 + N4 * 50) / 100;
 }
 
 
@@ -87,7 +86,7 @@ void calc_media(){
 
 void verifica_passou(){
     //VERIFICA SE PASSOU OU REPROVOU
-    if(media>=70.000000){
+    if(media>=70){
         printf("");
         printf("\n************************************");
         printf("\nParabéns, você está APROVADO!.");
@@ -120,7 +119,7 @@ int main(int argc, const char * argv[]) {
     
     // APRESENTAR MEDIA
     printf(" ");
-    printf("\nA sua média é: %f", media);
+    printf("\nA sua média é: %d", media);
     
     verifica_passou();
     
