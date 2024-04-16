@@ -1,0 +1,25 @@
+C:\Users\rafae\Documents\Visual Studio 2017\PROJETOS\UMC 2.0\UMC 2.0\bin\Debug\UMC 2.0.exe
+C:\Users\rafae\Documents\Visual Studio 2017\PROJETOS\UMC 2.0\UMC 2.0\bin\Debug\UMC 2.0.pdb
+C:\Users\rafae\Documents\Visual Studio 2017\PROJETOS\UMC 2.0\UMC 2.0\obj\Debug\UMC 2.0.csprojAssemblyReference.cache
+C:\Users\rafae\Documents\Visual Studio 2017\PROJETOS\UMC 2.0\UMC 2.0\obj\Debug\UMC_2._0.Properties.Resources.resources
+C:\Users\rafae\Documents\Visual Studio 2017\PROJETOS\UMC 2.0\UMC 2.0\obj\Debug\UMC 2.0.csproj.GenerateResource.cache
+C:\Users\rafae\Documents\Visual Studio 2017\PROJETOS\UMC 2.0\UMC 2.0\obj\Debug\UMC 2.0.csproj.CoreCompileInputs.cache
+C:\Users\rafae\Documents\Visual Studio 2017\PROJETOS\UMC 2.0\UMC 2.0\obj\Debug\UMC 2.0.exe
+C:\Users\rafae\Documents\Visual Studio 2017\PROJETOS\UMC 2.0\UMC 2.0\obj\Debug\UMC 2.0.pdb
+C:\Users\rafae\Documents\Visual Studio 2017\PROJETOS\UMC 2.0\UMC 2.0\obj\Debug\UMC_2._0.Form1.resources
+C:\Users\rafae\Documents\Visual Studio 2017\PROJETOS\UMC 2.0\UMC 2.0\obj\Debug\UMC_2._0.frmSobre.resources
+C:\Users\rafae\Documents\Visual Studio 2017\PROJETOS\UMC 2.0\UMC 2.0\UMC 2.0\bin\Debug\UMC 2.0.exe
+C:\Users\rafae\Documents\Visual Studio 2017\PROJETOS\UMC 2.0\UMC 2.0\UMC 2.0\bin\Debug\UMC 2.0.pdb
+C:\Users\rafae\Documents\Visual Studio 2017\PROJETOS\UMC 2.0\UMC 2.0\UMC 2.0\obj\Debug\UMC 2.0.csprojAssemblyReference.cache
+C:\Users\rafae\Documents\Visual Studio 2017\PROJETOS\UMC 2.0\UMC 2.0\UMC 2.0\obj\Debug\UMC_2._0.Form1.resources
+C:\Users\rafae\Documents\Visual Studio 2017\PROJETOS\UMC 2.0\UMC 2.0\UMC 2.0\obj\Debug\UMC_2._0.frmSobre.resources
+C:\Users\rafae\Documents\Visual Studio 2017\PROJETOS\UMC 2.0\UMC 2.0\UMC 2.0\obj\Debug\UMC_2._0.Properties.Resources.resources
+C:\Users\rafae\Documents\Visual Studio 2017\PROJETOS\UMC 2.0\UMC 2.0\UMC 2.0\obj\Debug\UMC 2.0.csproj.GenerateResource.cache
+C:\Users\rafae\Documents\Visual Studio 2017\PROJETOS\UMC 2.0\UMC 2.0\UMC 2.0\obj\Debug\UMC 2.0.csproj.CoreCompileInputs.cache
+C:\Users\rafae\Documents\Visual Studio 2017\PROJETOS\UMC 2.0\UMC 2.0\UMC 2.0\obj\Debug\UMC 2.0.exe
+C:\Users\rafae\Documents\Visual Studio 2017\PROJETOS\UMC 2.0\UMC 2.0\UMC 2.0\obj\Debug\UMC 2.0.pdb
+C:\Users\rafae\Documents\Visual Studio 2017\PROJETOS\UMC 2.0\UMC 2.0\UMC 2.0\obj\Debug\UMC_2._0.frmExemplo.resources
+C:\Users\rafae\Documents\Visual Studio 2017\PROJETOS\UMC 2.0\UMC 2.0\UMC 2.0\bin\Debug\UMC 2.0.exe.manifest
+C:\Users\rafae\Documents\Visual Studio 2017\PROJETOS\UMC 2.0\UMC 2.0\UMC 2.0\bin\Debug\UMC 2.0.application
+C:\Users\rafae\Documents\Visual Studio 2017\PROJETOS\UMC 2.0\UMC 2.0\UMC 2.0\obj\Debug\UMC 2.0.exe.manifest
+C:\Users\rafae\Documents\Visual Studio 2017\PROJETOS\UMC 2.0\UMC 2.0\UMC 2.0\obj\Debug\UMC 2.0.application
